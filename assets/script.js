@@ -16,14 +16,11 @@ generateBtn.addEventListener("click", writePassword);
 
 
 //prompt(), alert(), confirm(),
-var characterType = character(prompt("Please select the password criteria."))
+var length = Number(prompt("Please select a password length."));
 
-prompt("Please select a password length.")
-
-prompt("Please select the character types.")
+var characterType = prompt("Please select the character type: uppercase, lowercase, numeric, and or special characters.");
 
 // prompt("How long do you want your password to be")
 
 function generatePassword() {
-  alert("Here is your password: " + password)
 }
